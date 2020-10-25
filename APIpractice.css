@@ -1,0 +1,123 @@
+/*
+  Gibbs Geng
+  09/04/2019
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+body {
+  background-color: black;
+  color: hsla(0,0%,100%,.7);
+}
+select, button {
+  font-size: 15pt;
+  background-color: #1f2431;
+  color: yellow;
+  width: 50%;
+}
+
+header {
+  color: inherit;
+
+  text-align: center;
+  font-family: 'East Sea Dokdo', cursive;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.selection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#selections{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15pt;
+  color: yellow;
+}
+.hide {
+  display: none;
+}
+
+#go, #renew {
+  margin-top: 50px;
+  align-items:center;
+  margin-left: 40%;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 15%;
+  font-size: 25pt;
+}
+
+.incorrect {
+  color: red;
+}
+
+.correct {
+  color: green;
+}
+
+
+
+p{
+  font-size: 25px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2, #points, #correct,  #question{
+  font-size: 40;
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+
+  color: #ADD8E6;
+}
+#conclusion {
+  font-size: 50;
+  color: red;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+#playground {
+  margin-left: 10%;
+  margin-right: auto;
+  border: 3px solid #FFF;
+  border-radius: 5px;
+  width: 80%;
+}
+
+#question{
+  width:80%;
+}
+
+.question {
+  color: blue;
+  font-size: 25pt;
+  font-weight: bold;
+  text-decoration: underline;
+
+}
+
+#HomePage {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: block;
+  text-decoration: none;
+
+  width: 10%;
+  background-color: red;
+}

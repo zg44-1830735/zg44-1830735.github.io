@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="APIpractice.css" />
+  <title>Knowledge Competition</title>
+  <script src="APIpractice.js"></script>
+</head>
+<body>
+  <header>
+    <div>
+      <a id="HomePage" href="1Portfolio.html"> Home Page</a>
+    </div>
+    <h1 id="Head">Knowledge Competition !!</h1>
+    <p>This is the time to show how Knowledgable you are! The more Scores you
+      gain, the more knowledgable you are. You will GAIN 18 points for every
+      CORRECT answer, but you will LOSE 7 points for each WRONG answer. You can
+      also SKIP a question if you don't know, however you will LOSE 2 points
+      for every SKIP.</p>
+
+  </header>
+  <main>
+    <div id="selections" class="hide">
+      <div class="selection">
+        <span id="time_title">Select time (in seconds): </span>
+        <select id="time">
+          <option>2</option>
+          <option>60</option>
+          <option>120</option>
+          <option>180</option>
+          <option>300</option>
+        </select>
+      </div>
+      <div class="selection">
+        <span id="category_title"> Select Category: </span>
+        <select  id="category">
+
+        </select>
+      </div>
+
+      <div class="selection">
+        <span id="difficulty_title"> Select Difficulty: </span>
+        <select id="Diffcilty">
+          <option>Easy</option>
+          <option>Medium</option>
+          <option>Hard</option>
+        </select>
+      </div>
+    </div >
+
+    <div class="gogg">
+        <button id="go"  type="button">Go!</button>
+    </div>
+
+    <p id="error" class="hide"></p>
+
+    <div class="hide" id="playground">
+      <h2>
+        <span id="remaining_time_text"> Remaining Time:</span>
+        <span id="remaining_time"></span>
+      </h2>
+      <div class="point" id="points" class="hide">
+        <span id="total_point_text"> Total points:</span>
+        <span id="total_point" ></span>
+      </div>
+      <div id="correct" >
+        <span id="cor_text"> Number of Questions Correct:</span>
+        <span id="cor"></span>
+      </div>
+      <div id="question">
+
+      </div>
+
+    </div>
+    <div id="conclusion">
+      <span > </span>
+    </div>
+    <button id="renew" class="hide" type="button">Play Again?</button>
+  </main>
+
+</body>
